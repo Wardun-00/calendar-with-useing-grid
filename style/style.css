@@ -1,6 +1,8 @@
 /* Body part Start */
 body{
 
+    max-width:1920px;
+    height: 650px;
     background-color: gray;
 }
 /* Body part End */
