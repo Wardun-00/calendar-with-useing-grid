@@ -1,0 +1,74 @@
+/* Body part Start */
+body{
+
+    background-color: gray;
+}
+/* Body part End */
+
+/* Head part Start */
+.hed:hover{
+    background-color: blueviolet;
+    padding:10px;
+
+}
+/* Head part Start */
+
+.calendar{
+    display: grid;
+    grid-template-columns:repeat(7, 1fr);
+    grid-template-rows:50px repeat(5, 50px);
+    border:1px solid blueviolet;
+   
+    row-gap: 20px;
+    column-gap:10px;
+    height: 410px;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.date, .day{
+    background-color: bisque;
+    border-radius:5px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    font-size:1.5em;
+    border: 3px solid blueviolet;
+
+}
+
+.day{
+    background-color:blueviolet;
+    border:3px solid bisque;
+    font-size: 2em;
+}
+
+.day:hover{
+    background-color: bisque;
+    color: red;
+}
+
+.date:hover{
+    background-color:blueviolet;
+
+}
+
+.calendar-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height:90vh;
+    /* border: 2px solid red; */
+    background-color: gray;
+}
+
+.calendar:hover{
+    padding:10px;
+    background-color:blueviolet;
+    
+}
+
